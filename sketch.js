@@ -16,10 +16,6 @@ function setup() {
 function draw() {
   // Background
   setGradient(0, 0, width, height, c1, c2, X_AXIS);
-
-  // Draw ellipse
-  ellipse(w, height/2, 100, 100);
-  w = w + 1;
 }
 
 function setGradient(x, y, w, h, c1, c2, axis) {
