@@ -4,7 +4,7 @@ var canvas,text;
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('p5-canvas');
-  background('teal');
+  background('white');
 
   text = createDiv('Drag your mouse around!');
   text.parent('p5-text');
@@ -24,8 +24,4 @@ function mouseDragged() {
   ellipse(mouseX, mouseY, 100, 100);
   // prevent default
   return false;
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
