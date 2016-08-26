@@ -1,3 +1,13 @@
+#p5-canvas {
+  width: 100%;
+  height: auto;
+}
+
+#p5-text {
+  font-family: "Ubuntu";
+  font-size: 25px;
+}
+
 img {
   width: 100%;
   height: auto;
